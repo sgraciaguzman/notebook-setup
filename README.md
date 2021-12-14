@@ -41,6 +41,7 @@ conda activate myenv
 ```
 conda env export --from-history > environment.yml
 ```
+It seems that jupyterlab git package might not be compatible with installing a venv this way
 
 
 
