@@ -37,7 +37,7 @@ Have your desired venv active ex.
 ```
 conda activate myenv
 ```
-Replace myenv with the name of your env\
+Replace myenv with the name of your env
 ```
 conda env export --from-history > environment.yml
 ```
