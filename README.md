@@ -7,18 +7,18 @@ repo to test and setup notebook and document steps taken
 ## JupyterLab git extension
 
 ### Vamsi's instructions
-Initial Set Up
-Install the Git Widget
-Install Node.js conda install -c conda-forge nodejs
-Install npmconda 
-install yarnconda update -n base -c defaults conda 
-Install Git Extension
+Initial Set Up\
+Install the Git Widget\
+Install Node.js conda install -c conda-forge nodejs\
+Install npmconda\ 
+install yarnconda update -n base -c defaults conda\ 
+Install Git Extension\
 conda install -c conda-forge jupyterlab jupyterlab-git
 
 
 ### What I did:
-conda install nodejs
-install jupyter lab git
+conda install nodejs\
+install jupyter lab git\
 ?? Follow prompt for additional terminal command?
 
 clone repository ussing HTTPS
