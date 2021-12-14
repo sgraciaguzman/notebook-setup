@@ -17,7 +17,9 @@ conda install -c conda-forge jupyterlab jupyterlab-git
 
 
 ### What I did:
-conda install nodejs\
+```
+conda install nodejs
+```
 install jupyter lab git\
 ?? Follow prompt for additional terminal command?
 
@@ -29,12 +31,17 @@ subtmit changes for staging -> commit with comment -> pushed
 changes should show up on repo 
 
 
-## How to make a copy of your environment :
-Open anaconda prompt as admin
+## How to make a copy of your virtual conda environment for uploading :
+Run anaconda prompt as admin\
+Have your desired venv active ex.
+```
+conda activate myenv
+```
+Replace myenv with the name of your env\
+```
+conda env export --from-history > environment.yml
+```
 
-Have your desired venv active ex. conda activate myenv
-
-In anaconda prompt: conda env export --from-history > environment.yml
 
 
 
