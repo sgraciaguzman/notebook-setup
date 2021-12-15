@@ -1,5 +1,5 @@
-# notebook-setup
-This repo serves as source for testing and documentation on how to integrate github to Jupyter Lab.
+# Getting Started on Github 
+This repository serves as a resource to get familiar with github and documents steps on how to integrate github to Jupyter Lab. This repo also outlines steps to export a conda vritual environment.
 repo to test and setup notebook and document steps taken
 
 
@@ -7,12 +7,12 @@ repo to test and setup notebook and document steps taken
 ## JupyterLab git extension
 
 ### Vamsi's instructions
-Initial Set Up\
-Install the Git Widget\
-Install Node.js conda install -c conda-forge nodejs\
-Install npmconda\ 
-install yarnconda update -n base -c defaults conda\ 
-Install Git Extension\
+Initial Set Up  
+Install the Git Widget  
+Install Node.js conda install -c conda-forge nodejs  
+Install npmconda  
+install yarnconda update -n base -c defaults conda  
+Install Git Extension  
 conda install -c conda-forge jupyterlab jupyterlab-git
 
 
