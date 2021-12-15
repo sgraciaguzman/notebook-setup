@@ -1,7 +1,7 @@
 # Getting Started on Github 
-This repository serves as a resource to get familiar with github and documents steps on how to integrate github to Jupyter Lab. This repo also outlines steps to export a conda vritual environment.
-repo to test and setup notebook and document steps taken
-
+This repository serves as a resource to get familiar with github and how to integrate github to Jupyter Lab.
+This repo also outlines steps to export a conda vritual environment. 
+Finally this repo can be used to test out new techniques or methods to use githab/ jupyter notebooks without affecting any existing repos/projects.
 
 
 ## JupyterLab git extension
@@ -20,7 +20,7 @@ conda install -c conda-forge jupyterlab jupyterlab-git
 ```
 conda install nodejs
 ```
-install jupyter lab git\
+install jupyter lab git  
 ?? Follow prompt for additional terminal command?
 
 clone repository ussing HTTPS
@@ -32,7 +32,7 @@ changes should show up on repo
 
 
 ## How to make a copy of your virtual conda environment for uploading :
-Run anaconda prompt as admin\
+Run anaconda prompt as admin  
 Have your desired venv active ex.
 ```
 conda activate myenv
