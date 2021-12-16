@@ -5,7 +5,10 @@ Finally this repo can be used to test out new techniques or methods to use Githu
 
 
 ## Jupyter Lab git extension
-For most projects requiring Python scripts, JupyterLab is the IDE of choice. Together with the git extension, it is possible to integrate with Github and easily share notebooks and utilize all that Github has to offer. Since there is currently no native integrations with git, an extension galled Jupyter Lab git is used. For complete information see the documentation [here](https://github.com/jupyterlab/jupyterlab-git).
+For most projects requiring Python scripts, JupyterLab is the IDE of choice. Together with the git extension, it is possible to integrate with Github and easily share notebooks and utilize all that Github has to offer. Since there is currently no native integrations with git, an extension called Jupyter Lab git is used. 
+
+### Installation
+Below are steps taken to install the widget. For more complete information please reference the [Jupyterlab-git documentation](https://github.com/jupyterlab/jupyterlab-git) and the [Jupyterlab extension documentation](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html).
 
 ### Vamsi's instructions
 Initial Set Up  
