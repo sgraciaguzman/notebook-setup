@@ -40,7 +40,7 @@ subtmit changes for staging -> commit with comment -> pushed
 changes should show up on repo 
 
 
-## How to make a copy of your virtual conda environment for uploading :
+## How to make a copy of your virtual conda environment 
 Run anaconda prompt as admin  
 Have your desired venv active example
 ```
@@ -50,12 +50,7 @@ conda activate your_env_name
 ```
 conda env export --from-history > environment.yml
 ```
-You might need to specify the path to where you would like to save your yml file in order to find it. This yml file contains everything needed to make identical conda environment. This yml should be included on any future repos for reproducibility. 
+You might need to specify the path to where you would like to save your yml file in order to find it. This yml file contains everything needed to make identical conda environment. This yml should be included on any future repos for reproducibility.  
+For more information on conda environments see the [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 It seems that jupyterlab git package might not be compatible with installing a venv this way
-
-
-
-
-
- q
