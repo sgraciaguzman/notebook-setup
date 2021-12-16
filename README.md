@@ -27,8 +27,8 @@ conda install nodejs
 install jupyter lab git  
 Follow prompt for additional terminal commands
 
-## How to make utilize git extension within jupyter lab
-After installation you should see a new git logo tab on the left hand side of the jupyter lab interface. 
+## How to utilize git extension within JupyterLab
+After installation you should see a new git logo tab on the left hand side of the JupyterLab interface. 
 
 Clicking this should show three options:  
 
