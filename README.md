@@ -42,17 +42,20 @@ changes should show up on repo
 
 ## How to make a copy of your virtual conda environment for uploading :
 Run anaconda prompt as admin  
-Have your desired venv active ex.
+Have your desired venv active example
 ```
-conda activate myenv
+conda activate your_env_name
 ```
-*Replace myenv with the name of your env
+
 ```
 conda env export --from-history > environment.yml
 ```
+You might need to specify the path to where you would like to save your yml file in order to find it. This yml file contains everything needed to make identical conda environment. This yml should be included on any future repos for reproducibility. 
+
 It seems that jupyterlab git package might not be compatible with installing a venv this way
 
 
 
 
 
+ q
